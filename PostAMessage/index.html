@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/message.css"/>
+		
+	</head>
+	<body>
+	<div id="showMsg" v-cloak>
+		<ul class="list">
+			<li 
+				class="msg"
+				v-for="(value, key) in list"
+				:key="key"
+			>
+				<img class="pic" v-bind:src="value.imgSrc"/>
+				<p class="msgCont"> {{ value.content }} </p>
+				<div class="date">
+					<p> {{ value.dates }} </p>
+					<a href="#" class="del" @click="handleDelete(key)"> {{ value.deleteButton }} </a>
+				</div>
+			</li>
+		</ul>
+		<button class="btn" @click="publish"> {{ publishText }} </button>
+		<!-- 弹出留言框 -->
+		<div class="msg_blck" v-if="flag">
+			<div class="msg_cont">
+				<a class="closeBtn" href="#" @click="closeBtn">X</a>
+				<textarea rows="20" cols="30" class="tarea" v-model="testareaValue"></textarea>
+				<button class="confirmBtn" @click="confirmBtn"> {{ confirmBtnText }} </button>
+			</div>
+
+		</div>
+	</div>
+	</body>
+	<script type="text/javascript" src="js/vue.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+</html>
