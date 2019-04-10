@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>原装正品</title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/clear_subpage.css" />
+	</head>
+	<body>
+		<div id="warp">
+			<header class="bg"> <img src="../assert/zhengpin_icon.jpg"/> </header>
+		    <section v-cloak>
+		        <div> {{ title2 }} </div>
+		        <ul>
+		            <li v-for="(value, index) in dataList2"> {{ value.textContent }} </li>
+		        </ul>
+		    </section> 
+		</div>
+	</body>
+	<script type="text/javascript" src="../plugin/lib-flex.js" ></script>
+	<script type="text/javascript" src="../plugin/vue.min.js" ></script>
+	<script type="text/javascript" src="../js/clear_subpage.js" ></script>
+</html>

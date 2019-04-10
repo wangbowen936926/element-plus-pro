@@ -1,0 +1,36 @@
+body{
+	background-color: #fafafa;
+}
+#warp header img{
+	width: 100%;
+}
+#warp section div{
+	display: flex;
+	justify-content: center;
+	color: #611a8a;
+	font-size: .35rem;
+}
+#warp section ul{
+	width: 85%;
+	margin: .5rem auto;
+	background-color: white;
+}
+#warp section li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: .85rem;
+	color: #666666;
+	font-size: .28rem;
+	border: 1px solid #666666;
+	border-bottom: none;
+}
+#warp section li:last-of-type{
+	border-bottom: 1px solid #666666;
+}
+#warp section li:nth-child(2),#warp section li:nth-child(4){
+	background-color: #f7f7f7;
+}
+[v-cloak]{
+	display: none;
+}

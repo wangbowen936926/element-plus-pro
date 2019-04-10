@@ -1,0 +1,278 @@
+body{
+	background-color: whitesmoke;
+}
+.box{
+	height: 59.8rem;
+}
+/*---------------------polytop组件样式---------------------*/
+.polytop .jumei-location{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 1.2rem;
+	font-size: 0.25rem;
+    background-size: 100% 100%;
+    background-image: url(../assert/bg_01.png);
+}
+.polytop .jumei-location a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.7rem;
+	height: 0.65rem;
+	color: white;
+	border-radius: .33rem;
+	background-color: #fe4070;
+}
+.polytop .touch-header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 1rem;
+	background-color: white;
+	border-bottom: .01rem solid gainsboro;
+}
+.polytop .touch-header div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 68%;
+	height: .45rem;
+	font-size: .32rem;
+}
+.polytop .touch-header a:first-of-type{
+	display: flex;
+	width: .29rem;
+	height: .3rem;
+}
+.polytop .touch-header a:last-of-type{
+	display: flex;
+	width: .45rem;
+	height: .3.5rem;
+}
+.polytop .header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 1rem;
+	background-color: white;
+}
+.polytop .header .sousuo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: .58rem;
+	font-size: 0.25rem;
+	color: dimgrey;
+	border: .01rem solid gainsboro;
+	border-radius: .33rem;
+	background-color: whitesmoke;
+}
+.polytop .header .sousuo span{
+	display: flex;
+	align-items: center;
+	width: .44rem;
+	height: 80%;
+}
+.polytop .header .img-button{
+	display: flex;
+	width: .5rem;
+	height: .35rem;
+}
+.polytop .swiper-container{
+	display: flex;
+	align-items: flex-start;
+	height: 1rem;
+	background-color: white;
+	border-bottom: .01rem solid gainsboro;
+}
+.polytop .swiper-wrapper{
+	margin-left: 3.5%;
+	width: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.swiper-wrapper span{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.swiper-wrapper span:nth-child(1),
+.swiper-wrapper span:nth-child(3),
+.swiper-wrapper span:nth-child(4){
+	max-width: 1.33rem;
+}
+.swiper-wrapper span:nth-child(2) a{
+	color: #FE4070;
+}
+.swiper-wrapper span:nth-child(2),.swiper-wrapper span:nth-child(5){
+	max-width: 2.33rem;
+}
+.swiper-wrapper .swiper-slide a{
+	color: #666;
+	font-size: .3rem;
+}
+/*---------------------clearnav组件样式---------------------*/
+.clear{
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+}
+.clear li{
+	display: flex;
+	justify-content: center;
+	width: 1.5rem;
+	height: 1.4rem;
+}
+.clear li a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 1rem;
+	height: 100%;
+	color: #666;
+	font-size: .25rem;
+}
+.clear li a img{
+	width: 0.9rem;
+	height: 0.9rem;
+}
+/*---------------------product组件样式---------------------*/
+.deals-content{
+	margin-top: .25rem;
+	color: #666;
+	font-size: .25rem;
+	background-color: white;
+}
+.deals-content .title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: .9rem;
+}
+.deals-content .title img{
+	padding: 0 .1rem 0;
+	width: .60rem;
+	height: .38rem;
+}
+.deals-content .product{
+	display: flex;
+	align-items: center;
+	height: 2.6rem;
+}
+.deals-content .product a{
+	margin: 0 auto;
+	display: flex;
+	width: 95%;
+	height: 2.1rem;
+	border-bottom: .01rem solid gainsboro;
+}
+.product a .product-img{
+	width: 34%;
+}
+.product a .product-img img:first-of-type{
+	position: relative;
+	width: .62rem;
+	height: .52rem;
+	z-index: 2;
+}
+.product a .product-img img:last-of-type{
+	display: block;
+	margin: -.52rem auto;
+	width: 85%;
+	height: 99.5%;
+}
+.product a .product-text{
+	width: 65%;
+	color: #666;
+}
+.product a .product-text .product-price{
+	margin-top: .78rem;
+}
+.product-text .product-price span b{
+	color: crimson;
+	font-size: .32rem;
+}
+/*---------------------polyfooter组件样式---------------------*/
+.polyfooter{
+	margin-top: .2rem;
+	height: 4rem;
+	font-size: .25rem;
+	background-color: white;
+}
+.polyfooter .polyfooter-content{
+	margin: 0 auto;
+	width: 95%;
+}
+.polyfooter-content .polyfooter-bg img{
+	margin-top: .2rem;
+	width: 100%;
+}
+.polyfooter-button{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 1rem;
+}
+.polyfooter-button a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.5rem;
+	height: .56rem;
+	color: black;
+	font-family: "微软雅黑";
+	border: 1px solid darkgrey;
+	border-radius: .3rem;
+}
+.polyfooter-button a:first-of-type{
+	color: #FE4070;
+}
+.polyfooter-text{
+	display: flex;
+	justify-content: center;
+	color: #666;
+}
+/*---------------------bottom-nav组件样式---------------------*/
+.bottom-nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 1.3rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	background-color: white;
+}
+.bottom-nav a{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	width: .85rem;
+	height: 1rem;
+	color: #666;
+	font-size: .28rem;
+}
+.bottom-nav .bg1{
+	background: url(../assert/home.png)no-repeat top center;
+	background-size: 62% 48%;
+}
+.bottom-nav .bg2{
+	background: url(../assert/b51a66ca3ddb31ec0edbd67ea68f7589.png)no-repeat top center;
+	background-size: 62% 48%;
+}
+.bottom-nav .bg3{
+	background: url(../assert/77b9454e8dd41a060510a445010ac934.png)no-repeat top center;
+	background-size: 62% 48%;
+}
+.bottom-nav .bg4{
+	background: url(../assert/829aa091062366a9f7b93cfffaa0e681.png)no-repeat top center;
+	background-size: 62% 48%;
+}
